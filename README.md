@@ -18,7 +18,7 @@ Uma calculadora de operações básicas com visual *glassmorphism* e tipografia 
 
 ## 🚀 Demo
 
-* **Live**: *(adicione o link quando publicar)*
+* **Live**: https://calculadora-seven-jet.vercel.app
 * **Preview rápido**: abra `index.html` no navegador.
 
 ---
@@ -60,8 +60,8 @@ calculadora/
 1. **Clone** o repositório:
 
    ```bash
-   git clone https://github.com/<seu-usuario>/<seu-repo>.git
-   cd <seu-repo>
+   git clone https://github.com/Phtsilva/CalculadoraJS.git
+   cd CalculadoraJS
    ```
 2. **Abra** o `index.html` no navegador (duplo clique já funciona).
 3. Opcional: use uma extensão de **Live Server** no VS Code para *hot reload*.
@@ -130,26 +130,6 @@ Exemplo:
 <section class="tela" role="status" aria-live="polite">0</section>
 <button class="calc-btn" aria-label="apagar">←</button>
 ```
-
----
-
-## 🧰 Scripts úteis (opcional)
-
-Se quiser hospedar apenas com arquivos estáticos:
-
-* **GitHub Pages**: Settings → Pages → Deploy from a branch → `main` → `/root`.
-* **Vercel/Netlify**: importe o repositório e publique sem build.
-
----
-
-## 📸 Screenshots
-
-> Adicione imagens em `/assets` e atualize os caminhos abaixo.
-
-| Tela | Imagem                      |
-| ---- | --------------------------- |
-| App  | `assets/screenshot-app.png` |
-
 ---
 
 ## 🤝 Contribuição
@@ -168,8 +148,8 @@ Este projeto está sob a **MIT License** — veja `LICENSE` para detalhes.
 
 **Phtsilva** — Desenvolvedor iniciante, apaixonado por web e design. Projeto **totalmente autoral**.
 
-* Portfólio: *(adicione o link)*
-* LinkedIn: *(adicione o link)*
+* Portfólio: https://portifolio-seven-gray-84.vercel.app/
+* LinkedIn: https://www.linkedin.com/in/phtsilva0
 
 ---
 
