@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: hsl(281, 32%, 17%);
+    --secondary-color: #6c23f5;
+    --font-primary: 'Gugi', cursive;
+    --font-secondary: 'Montserrat', sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+    height: 100%;
+
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: linear-gradient(var(--primary-color), var(--secondary-color));
+    font-family: var(--font-primary);
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.container{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: #232323;
+    backdrop-filter:  blur(4px);
+    -webkit-backdrop-filter:  blur(4px);
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+}
+
+/* Aqui eu coloquei os números da calculadora */
+.tela{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 326px;
+}
+
+.calc-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+
+
+}
+
+/* Parte mais dificil na minha opiniao*/
+.calc-btn{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px );
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;    
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: var(--font-primary);
+    font-size: 24px;
+    height:  65px;    
+}
+
+.calc-btn:last-child {
+        backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px );
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;    
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    background: rgb(231, 202, 255);
+}
+
+.calc-btn:last-child:hover {
+    background-color: inherit;
+    color: inherit;
+}
+
+.calc-btn:hover{
+    background-color: inherit;
+}
+
+.calc-btn:active {
+    background-color: rgb(219, 180, 255)
+}
+
+.triple{
+    flex-basis: 73%;
+}
+
+.double{
+    flex-basis: 46%;
+}
+
+.apresentacao #apresentacao-texto {
+    font-family: var(--font-primary);
+    font-size:  1.5rem;
+    border-right: 2px solid #232323;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: blink-caret 0.9s step-end infinite;
+    color: rgb(218, 218, 218);
+}
+
+@keyframes blink-caret {
+    0%, 100% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: var(--primary-color);
+    }
+}
