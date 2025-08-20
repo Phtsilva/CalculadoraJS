@@ -96,29 +96,6 @@ calculadora/
 > Dica: ajuste tamanhos com `clamp()` e media queries para telas menores.
 
 ---
-
-## 🧪 Melhorias sugeridas (próximos passos)
-
-* **Suporte ao teclado**:
-
-  * `keydown` para números, `Backspace`, `Enter`, `+ - * /` e `.`
-* **Decimais e erros**:
-
-  * Trocar `parseInt` → `parseFloat`
-  * Tratar divisão por zero e `NaN`
-* **UX**:
-
-  * Animação de clique/press
-  * Foco visível (acessibilidade)
-  * Estado desabilitado no `=` quando não houver operação
-* **Acessibilidade**:
-
-  * `aria-live` no display
-  * `aria-label` nos botões
-* **Tema**: alternância claro/escuro via `data-theme`
-
----
-
 ## 🧯 Acessibilidade (base)
 
 * Display `.tela` pode usar `role="status"` + `aria-live="polite"` para leitores de tela.
